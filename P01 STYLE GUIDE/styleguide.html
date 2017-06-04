@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>PO1 Style Guide</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/grids.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+    <h1>P01 "Pen to Live By" Style Guide</h1>
+
+
+    <nav>
+      
+      <p>
+        <a class="nav-list" href="#interactive_elements">Interactive Elements</a>
+        <a class="nav-list" href="#text_elements">Text Elements</a>
+        <a class="nav-list" href="#combined_elements">Combined Elements</a>
+        <a class="nav-list" href="styleguide.html"> Style Guide</a>
+        <a class="nav-list" href="wireframes.html"> Wireframes</a>
+        <a class="nav-list" href="citation.html"> Citation</a>
+      </p>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code><strong>html:</strong><br>
+        &lt;a class="button-nav" href="#"&gt;add to cart&lt;/a&gt;<br>
+        <br><strong>css:</strong><br>
+        display: inline-block;<br>
+        padding: 0.5em 2em;<br>
+        font-size:18px;<br>
+        margin-top: 0.5em;<br>
+        color: #FFF;<br>
+        background-color: #ffa600;<br>
+        border-radius: 0.5em;<br>
+        text-decoration: none;<br>
+        -webkit-transition: background-color 0.2s ease-out;<br>
+        transition: background-color 0.2s ease-out;<br><br>
+        hover, .button-nav:focus {<br>
+        background-color: #ffc600;}<br>
+        </code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#"> Add to Cart</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+        <h3>CSS selector:</h3>
+        <p>.in-text-link</p>
+        <h3> Sample code:</h3>
+        <code><strong>html:</strong><br>
+        &lt;a class="in-text-link" href="#"&gt;in-text link&lt;/a&gt;<br>
+        <br><strong>css:</strong><br>
+          padding-left: 0em;<br>
+          font-size: 18spx;<br>
+          text-decoration: none;<br>
+          color: #30949C;<br>
+
+          .in-text-link:hover{<br>
+          text-decoration: none;<br>
+          color: #FFC300;<br>
+    
+        </code>
+
+
+        <h3>Rendered element:"</h3>
+        <a class="in-text-link" href="#">in-text link</a>
+
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+        <h3>CSS selector:</h3>
+        <p>.button-submit, .button-reset</p>
+        <h3> Sample code:</h3>
+        <code><strong>html:</strong><br>
+        &lt;a class="button-submit" href="#"&gt;SUBMIT&lt;/a&gt;<br>
+        &lt;a class="button-reset" href="#"&gt;Reset&lt;/a&gt;<br>
+        <br><strong>css:</strong><br>
+          font-family: 'SfUiDisplay', sans-serif;<br>
+          color:white;<br>
+          background: #30949C;<br>
+          border-radius: 0.5em;<br>
+          text-decoration: none;<br>
+          padding: 0.5em 0.75em;<br>
+
+          .button-submit:hover{<br>
+          background-color: #7BB3B8;}<br>
+    
+        </code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-submit" href="#">SUBMIT</a>
+        <a class="button-reset" href="#">RESET</a>
+
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+        <h3>CSS selector:</h3>
+        <p>.input</p>
+
+        <h3>Sample code:</h3>
+        <code><strong>html:</strong><br>
+        &lt;form class="input"&gt;<br>
+        &lt;input type="text" name="productname" value="Pen to Live by"&gt;<br>
+         &lt;input type="submit" class="button-submit"&gt;<br>
+          &lt;input type="reset" class="button-reset"&gt;<br>
+          </code>
+
+        <h3>Render element</h3>
+        <form class="input"> 
+          <input type="text" name="productname" value="Pen to Live by"> <br><br>
+          <input type="submit" class="button-submit">
+          <input type="reset" class="button-reset">
+        </form>
+      </section>
+
+   </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+        <h3>CSS selector:</h3>
+        <p>.headers</p>
+
+        <h3>Sample code:</h3>
+        <code><strong>html:</strong><br>
+        &lt;h1 class="headers"&gt;heading 1&lt;/h1&gt;<br>
+        </code>
+
+
+
+        <h3>Render element</h3>
+        <h1 class="headers">heading 1</h1>
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+        <h3>CSS selector:</h3>
+        <p>.paragraphs</p>
+
+        <h3>Sample code:</h3>
+        <code><strong>html:</strong><br>
+        &lt;h1 class="paragraphs"&gt;text&lt;/h1&gt;<br>
+        </code>
+
+
+        <h3>Render element</h3>
+        <p class="paragraphs"> Aluminium, pacific metallic anodized / metal clip / ergonomic plastic grip / steel nib, polished / with ink cartridge LAMY T 10 blue / can be used with the converter LAMY Z 28E</p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+         <h3>CSS selector:</h3>
+        <p>.bulleted-lists</p>
+
+        <h3>Sample code:</h3>
+        <code><strong>html:</strong><br>
+        &lt;ul class="bulleted-lists"&gt;<br>
+          &lt;li&gt;need1&lt;/li&gt;<br>
+          &lt;li&gt;need2&lt;/li&gt;<br>
+          &lt;li&gt;need3&lt;/li&gt;&lt;/ul&gt;<br>
+        </code>
+
+
+        <h3>Render element</h3>
+        <ul class="bulleted-lists">
+          <li>Fountain pens</li>
+          <li>Ballpoint pens</li>
+          <li>Rollerball pens</li>
+        </ul>
+
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+         <h3>CSS selector:</h3>
+        <p>.numbered-lists</p>
+
+        <h3>Sample code:</h3>
+        <code><strong>html:</strong><br>
+        &lt;ol class="numbered-lists"&gt;<br>
+          &lt;li&gt;need1&lt;/li&gt;<br>
+          &lt;li&gt;need2&lt;/li&gt;<br>
+          &lt;li&gt;need3&lt;/li&gt;&lt;/ol&gt;<br>
+        </code>
+
+
+        <h3>Render element</h3>
+        <ol class="numbered-lists">
+          <li>black ink</li>
+          <li>blue ink</li>
+          <li>red ink</li>
+        </ol>
+      </section>
+
+    </section>
+
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+         <h3>CSS selector:</h3>
+        <p>.main-navigation</p>
+
+        <h3>Sample code:</h3>
+        <code><strong>html:</strong><br>
+        &lt;a href="" class="main-navigation"&gt;Our Product&lt;/a&gt;<br>
+        <br><strong>css:</strong><br>
+        .main-navigation{<br>
+        margin: 1em;<br>
+        color: #30949C;<br>
+        text-decoration: none;<br>
+        font-size: 16px;<br>
+        }<br>
+
+        .main-navigation:hover{<br>
+        margin: 1em;<br>
+        color: #FFC300;<br>
+        text-decoration: none;<br>
+        }<br>
+        
+        </code>
+
+
+        <h3>Render element</h3>
+        <nav class="grid-col-">
+          <a href="" class="main-navigation">Our Product</a>
+          <a href="" class="main-navigation">Our Company</a>
+          <a href="" class="main-navigation">Contact Us</a>
+        </nav>
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+        <h3>CSS selector:</h3>
+        <p>.product-listing</p>
+
+        <h3>Sample code:</h3>
+
+
+        <h3>Render element</h3>
+        <h4>New !</h4>
+        <img src="img/pro3.png" width="293.5px" height="110px">
+        <h4>LÉMAN BICOLOR BLACK ROLLER PEN</h4>
+        <img src="img/pro4.png" width="293.5px" height="110px">
+        <h4>LAMY AL-star pacific Special Edition Fountain pen</h4>
+        <p>Aluminium, pacific metallic anodized / metal clip / ergonomic plastic grip / steel nib, polished / with ink cartridge LAMY T 10 blue / can be used with the converter LAMY Z 28</p>
+
+
+      </section>
+
+      <section>
+        <h2> Website colour swatches</h2>
+        <span class="button-color1">#30949C</span>
+        <span class="button-color2">#7BB3B8</span>
+        <span class="button-color3">#E4EFEF</span>
+        <span class="button-color4">#B8C1C1</span>
+        <span class="button-color5">#FFC300</span>
+        <span class="button-color6">#FFFFFF</span>
+       
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+  </body>
+</html>
