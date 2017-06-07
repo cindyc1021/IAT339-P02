@@ -3,7 +3,7 @@
   Default styling for the style guide 
 */
 body {
-  font-family: 'SfUiDisplay' sans-serif;
+  font-family: "Lato", sans-serif;
   padding: 2rem;
   font-size: 14px;
 }
@@ -47,11 +47,11 @@ section code {
 
 /* Styling for the navigation button */
 .button-nav {
-  font-family: 'SfUiDisplay', sans-serif;
+  font-family: "Lato", sans-serif;
   display: inline-block;
   padding: 0.5em 0.75em;
   color: #FFF;
-  background-color: #30949C;
+  background-color: #729bcc;
   border-radius: 0.25em;
   text-decoration: none;
   -webkit-transition: background-color 0.2s ease-out;
@@ -59,14 +59,14 @@ section code {
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: #7BB3B8;
+  background-color: #94b0d1 ;
 }
 
 .in-text-link{
   padding-left: 0em;
   font-size: 18spx;
   text-decoration: none;
-  color: #30949C;
+  color: #729bcc;
 }
 
 .in-text-link:hover{
@@ -76,25 +76,27 @@ section code {
 }
 
 .button-submit{
-  font-family: 'SfUiDisplay', sans-serif;
+  font-family: "Lato", sans-serif;
   color:white;
-  background: #30949C;
+  background: #729bcc;
   border-radius: 0.5em;
   text-decoration: none;
   padding: 0.5em 0.75em;
+  transition: background-color 0.2s ease-out;
 }
 
 .button-submit:hover{
-  background-color: #7BB3B8;
+  background-color: #94b0d1;
 }
 
 .button-reset{
-  font-family: 'SfUiDisplay', sans-serif;
+  font-family: "Lato", sans-serif;
   color:white;
-  background: #FFC300;
+  background: #f7d98a;
   border-radius: 0.5em;
   text-decoration: none;
   padding: 0.5em 0.75em;
+  transition: background-color 0.2s ease-out;
   
 }
 
@@ -109,9 +111,10 @@ section code {
 
 .main-navigation{
   margin: 1em;
-  color: #30949C;
+  color: #729bcc;
   text-decoration: none;
   font-size: 16px;
+  transition: color 0.2s ease-out;
 }
 
 .main-navigation:hover{
@@ -133,7 +136,7 @@ section code {
 }
 
 .button-color1{
-  background-color: #30949C;
+  background-color: #729bcc;
   display: inline-block;
   padding: 2em 2em;
   font-size: 16px;
@@ -143,7 +146,7 @@ section code {
 }
 
 .button-color2{
-  background-color: #7BB3B8;
+  background-color: #94b0d1;
   display: inline-block;
   padding:2em 2em;
   font-size: 16px;
@@ -170,7 +173,7 @@ section code {
   text-decoration: none;
 }
 .button-color5{
-  background-color: #FFC300;
+  background-color: #f7d98a;
   display: inline-block;
   padding: 2em 2em;
   font-size: 16px;
