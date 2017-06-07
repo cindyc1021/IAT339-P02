@@ -1,0 +1,26 @@
+* { 
+	box-sizing;border-box
+}
+
+[class^='grid-col-'] {
+	float:left;
+}
+
+.grid-col-1of3{
+	width:100%;
+}
+
+
+/* 700px/12 = 58.33 em*/
+
+@media (min-width: 58.33em){
+	.gird-col-1of4{
+		width:50%;
+	}
+}
+
+.grid-row:after {
+	content: "";
+	display: block;
+	clear:both;
+}
