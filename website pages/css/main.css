@@ -1,0 +1,147 @@
+body{
+
+}
+
+div{
+	display: block;
+}
+
+p{
+	line-height: 1.2;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+section{
+	margin: 1em;
+	display: block;
+}
+
+/*navigation bar start*/
+
+.nav-main{
+	background: white;
+	width: 100%
+	top:0;
+	position: fixed;
+	padding-top: 1em;
+	z-index: 2;
+}
+
+.nav-list{
+	float: right;;
+	padding-left: 0em;
+}
+
+
+.nav a{
+	padding-left: 1em;
+}
+
+.button-nav a:hover{
+
+}
+
+.brand{
+	font-size: 20px;
+	padding-right: 2em;
+	color: ##E4EFEF;
+}
+
+.icons{
+	float: right;
+}
+
+.icon{
+	padding-right: 10px;
+	padding-top: 15px;
+	width: 30px;
+	height: auto;
+	position: relative;
+	z-index: 999;
+	float: left;
+
+}
+
+.icon-on-nav{
+	padding: 1rem;
+	float: right;
+
+}
+
+.button-nav{
+	display: inline-block;
+	padding: 0em 1em 0em 1em;
+	color: white;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
+.nav{
+	width: 100%;
+	top: 0;
+	position: fixed;
+	background-color: #B8C1C1;
+	z-index: 5;
+}
+
+
+
+.my-cart{
+	z-index: 999;
+	
+}
+
+.my-fav{
+	z-index: 999;
+	padding-left: 0;
+
+
+}
+
+.search{
+	z-index: 999;
+
+}
+
+/*navigation bar end*/
+
+img{
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+.image-holder{
+	width: 100%;
+	margin-top: 2.3rem;
+	height: auto;
+}
+
+.image-holder img{
+	width: 100%;
+	height: auto;
+}
+
+h1{
+	color:black;
+	font-size: 15px;
+}
+
+h2{
+	color: grey;
+	font-size: 20px;
+	text-transform: lowercase;
+}
+
+.title{
+	padding: 0.2em 1em;
+	text-align: center;
+	border-bottom: 1px solid rgba(50,50,50,0.1);
+	margin-top: 3rem;
+}
+
