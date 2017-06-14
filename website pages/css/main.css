@@ -20,6 +20,19 @@ section{
 	display: block;
 }
 
+ul{
+	font-size: 16px;
+	text-align: center;
+	list-style: none;
+	padding-top: 1em;
+	padding-left: 0;
+	/*padding-bottom: 1rem;*/
+}
+
+li{
+	padding: 0.2em;
+}
+
 /*navigation bar start*/
 
 .nav-main{
@@ -48,7 +61,12 @@ section{
 .brand{
 	font-size: 20px;
 	padding-right: 2em;
-	color: ##E4EFEF;
+}
+
+.brand a{
+	font-size: 24px;
+	padding-right: 2em;
+	color: white;
 }
 
 .icons{
@@ -110,22 +128,39 @@ section{
 
 /*navigation bar end*/
 
+/*image*/
 img{
 	display: block;
 	margin: auto;
 	width: 100%;
 }
 
-.image-holder{
+#image-holder{
 	width: 100%;
-	margin-top: 2.3rem;
+	margin-top: 5rem;
 	height: auto;
+	
+
 }
 
-.image-holder img{
+#image-holder img{
 	width: 100%;
 	height: auto;
+
+	
 }
+
+#instagram-pic{
+	width: 100%;
+}
+
+#instagram-pic img{
+	width: 100%;
+	height: auto;
+	padding: 1rem;
+}
+
+/*text element*/
 
 h1{
 	color:black;
@@ -138,10 +173,66 @@ h2{
 	text-transform: lowercase;
 }
 
+
+.content-text {
+	width: 75%;
+	height: auto;
+	position: absolute;
+	top: 26%;
+	left: 18%;
+	text-align: center;
+}
+
+.content-text button{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1em 5em;
+	margin-top: 40em;
+	margin-right: 8em;
+	letter-spacing: 2px;
+	background-color: #94b0d1;
+	color:white;
+}
+
+.content-text h1{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 24px;
+	max-width: 80%
+	text-align:center;
+}
+
 .title{
 	padding: 0.2em 1em;
 	text-align: center;
 	border-bottom: 1px solid rgba(50,50,50,0.1);
-	margin-top: 3rem;
+	margin-top: 5rem;
 }
 
+/*footer section*/
+.footer-bg{
+	padding: 1rem;
+	background-color: #B8C1C1;
+
+}
+
+.footer-ul{
+	text-align: center;
+	font-size: 12px;
+}
+
+.footer-content{
+	display: inline-block;
+	color: #f7d98a;
+}
+
+.footer-icons{
+	width: 20%;
+	margin: 0 auto;
+}
+
+.center-container{
+	width: 52%;
+	margin: 0 auto;
+	height: auto;
+}
