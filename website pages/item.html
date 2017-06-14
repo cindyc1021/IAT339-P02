@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Item</title>
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/grids.css" rel="stylesheet">
+	<link href="css/font.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- <fixed horizontal navigation >-->
+	<div class="nav">
+	<div class="button-nav grid-col-1of6">
+		<h1 class="brand"><a href="home.html">CentiMeter</a> </h1>
+	</div>
+
+	<div class="button-nav grid-col-7of12">
+		<div class=" button-nav grid-button">
+		<a href="product.html">Our Product</a>
+		</div>
+
+		<div class=" button-nav grid-button">
+		<a href="company.html">Our Company</a>
+		</div>
+
+		<div class=" button-nav grid-button">
+		<a href="contact.html">Contact us</a>
+		</div>
+		
+	</div>
+
+	<div class="button-nav grid-col-1of6 icon-on-nav">
+		<div class="my-cart">
+		<span onclick="openCart()"><img src="img/cart.png" alt="cart-icon" title="My Cart" class="icon"></span>
+		</div>
+
+		<div class="my-fav">
+		<span onclick="openCart()"><img src="img/fav.png" alt="fav-icon" title="My Fav" class="icon"></span>
+		</div>
+
+		 <div class="search"> 
+         <span onclick="openSearch()"><img src="img/search.png" alt="search-icon" class="icon" title="search"></span>
+         </div>
+		
+	</div>
+	
+	</div>
+	<!-- <end of fixed horizontal navigation> -->
+	<!-- <start of item section> -->
+	<section>
+		<!-- <item image> -->
+		<div class="grid-row" id="item-info">
+			<div class="grid-col-1of2" id="item-image">
+			<div class="item-container">
+			<img id=" large-img" class="img-item" src="img/item1.jpg">
+			</div>
+
+			<div class="image-list-container">
+				<div class="grid-col-1of4">
+					<img class="img-item" src="img/item2.jpg" onclick="showImage('img/item2.jpg')">	
+				</div>
+				<div class="grid-col-1of4">
+					<img class="img-item" src="img/item3.jpg" onclick="showImage('img/item3.jpg')">	
+				</div>
+				<div class="grid-col-1of4">
+					<img class="img-item" src="img/item4.jpg" onclick="showImage('img/item4.jpg')">	
+				</div>
+
+				<div class="grid-col-1of4">
+					<img class="img-item" src="img/item5.jpg" onclick="showImage('img/item5.jpg')">	
+				</div>
+				
+			</div>
+				
+			</div>
+
+		<div class="grid-col-1of2" id="item-text">
+			<div class="item-container">
+				<div class="grid=col-1of2 item-text-info ">
+					<h2>OCTAEVO Artesania Creative Note</h2>
+					<h1>Orange/ Ruled</h1>
+
+					 <div id="add-to-cart-container">
+					 <a href=""> ADD TO MY CART</a>
+					 </div>
+					 <div id="add-to-cart-container">
+					 <a href=""> ADD TO MY LIST</a>
+					 </div>
+
+					 <div id="description">
+					 <h1>Editor's Notes</h1>
+					 <p>"Sunrise, sunset. We all build our days around the sun. A lot is written in a year. Some things might change, but life remains bright."
+					 </p>
+
+					<p>Diary with no dates; just beautiful minimalist, weekly planner pages using high quality paper. Soft eco PU cover with luxurious gold hot stamping and flexible spine so that it opens flat. Comes with a handy pocket to store notes, ribbon bookmark to mark pages and an elastic band to keep it perfectly closed.</p>
+
+					<h1>Details</h1>
+					<li>Size: 148 x 210 mm</li>
+					<li>Agenda: Week layout, 55 pgs.</li>
+					<li>Notes: Lines layout, 24 pgs.</li>
+					<li>Travel planning: 24 pgs.</li>
+					<li>Time zone map</li>
+					<li>Ruler (cm/inch)</li>
+					<li>Dialing codes and other userful information</li>
+					<li>Embellishment: Gold hot stamping</li>
+					<li>Edges painted by hand in an artisans workshop in Barcelona</li>
+					 	
+					 </div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+			
+		</div>
+	</section>
+
+	<!-- <end of item section> -->
+
+	<!-- <start of footer section> -->
+	<section>
+		<div class="grid-row">
+
+		<!-- <link> -->
+		<!--
+			<div class="grid-col-12of12 footer-bg">
+			<ul class="footer-ul">
+				<li class="footer-content">
+					<a href="">FQA</a>
+				</li>
+				<li class="footer-content">|</li>
+
+				<li class="footer-content">
+					<a href="">SHIPPING</a>
+				</li>
+				<li class="footer-content">|</li>
+
+				<li class="footer-content">
+					<a href="">CONTACT</a>
+				</li>
+			</ul>
+				
+			</div>
+			-->
+
+			<!-- <social icons> -->
+
+			<div class="grid-col-12of12 footer-bg">
+				<div class="footer-icons">
+					<div class="center-container">
+					<div class="icon">
+					<img src="img/facebook.png">
+					</div>
+
+					<div class="icon">
+					<img src="img/instagram.png">
+					</div>
+
+					<div class="icon">
+					<img src="img/twitter.png">
+					</div>
+
+					<div class="icon">
+					<img src="img/pinterest.png">
+					</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+	<!-- <end of footer section> -->
+
+</body>
+</html>
