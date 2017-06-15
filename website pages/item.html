@@ -34,7 +34,7 @@
 
 	<div class="button-nav grid-col-1of6 icon-on-nav">
 		<div class="my-cart">
-		<span onclick="openCart()"><img src="img/cart.png" alt="cart-icon" title="My Cart" class="icon"></span>
+		<span onclick="mycart.html"><img src="img/cart.png" alt="cart-icon" title="My Cart" class="icon" ></span>
 		</div>
 
 		<div class="my-fav">
@@ -82,13 +82,13 @@
 				<div class="grid=col-1of2 item-text-info ">
 					<h2>OCTAEVO Artesania Creative Note</h2>
 					<h1>Orange/ Ruled</h1>
+					<h1>$25.00</h1>
 
 					 <div id="add-to-cart-container">
-					 <a href=""> ADD TO MY CART</a>
+					 <a href="#mycart-popup"> ADD TO MY CART</a>
+					 <a href="#mylist-popup"> ADD TO MY LIST</a>
 					 </div>
-					 <div id="add-to-cart-container">
-					 <a href=""> ADD TO MY LIST</a>
-					 </div>
+					
 
 					 <div id="description">
 					 <h1>Editor's Notes</h1>
@@ -120,7 +120,51 @@
 	</section>
 
 	<!-- <end of item section> -->
+	<!-- <start of my cart popup> -->
+		<div id="mycart-popup">
+			<h1 class="title"> Added to My Cart</h1>
+			
+			<div class="cart-img">
+			<img src="img/item1.jpg">
+			</div>
 
+			<div>
+			<h2>OCTAEVO Artesania Creative Note</h2>
+			<p>Amount:1</p>
+			<p>Total price: $25.00</p>
+			<a href="item.html" class="viewmore">view more detail</a>
+				<form method="get" action="checkout.html">
+				<button type="submit" onclick="checkout.html">CHECK OUT</button>
+				</form>
+			</div>	
+			<a href="#" class="close">x</a>
+		</div>
+
+	<!-- <end of my cart popup> -->
+	<div id="cover"></div>
+
+		<!-- <start of my list popup> -->
+		<div id="mylist-popup">
+			<h1 class="title"> Added to My Wish List</h1>
+			
+			<div class="list-img">
+			<img src="img/item1.jpg">
+			</div>
+
+			<div>
+			<h2>OCTAEVO Artesania Creative Note</h2>
+			<p>Amount:1</p>
+			<p>Total price: $25.00</p>
+			<a href="item.html" class="viewmore">view more detail</a>
+				<form method="get" action="mycart.html">
+				<button type="submit" onclick="mycart.html">ADD TO MY CART</button>
+				</form>
+			</div>	
+			<a href="#" class="close">x</a>
+		</div>
+
+	<!-- <end of my cart popup> -->
+	<div id="cover"></div>
 	<!-- <start of footer section> -->
 	<section>
 		<div class="grid-row">

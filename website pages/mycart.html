@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>CentiMeter</title>
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/grids.css" rel="stylesheet">
+	<link href="css/font.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<!-- <fixed horizontal navigation >-->
+	<div class="nav">
+	<div class="button-nav grid-col-1of6">
+		<h1 class="brand"><a href="home.html">CentiMeter</a> </h1>
+	</div>
+
+	<div class="button-nav grid-col-7of12">
+		<div class=" button-nav grid-button">
+		<a href="product.html">Our Product</a>
+		</div>
+
+		<div class=" button-nav grid-button">
+		<a href="company.html">Our Company</a>
+		</div>
+
+		<div class=" button-nav grid-button">
+		<a href="contact.html">Contact us</a>
+		</div>
+		
+	</div>
+
+	<div class="button-nav grid-col-1of6 icon-on-nav">
+		<div class="my-cart">
+		<span onclick="mycart.html"><img src="img/cart.png" alt="cart-icon" title="My Cart" class="icon"></span>
+		</div>
+
+		<div class="my-fav">
+		<span onclick="openCart()"><img src="img/fav.png" alt="fav-icon" title="My Fav" class="icon"></span>
+		</div>
+
+		 <div class="search"> 
+         <span onclick="openSearch()"><img src="img/search.png" alt="search-icon" class="icon" title="search"></span>
+         </div>
+		
+	</div>
+	
+	</div>
+	<!-- <end of fixed horizontal navigation> -->
+
+	<!--<content>-->
+	<section>
+	<div class=" grid-row grid-col-12of12">
+		<div id="mycart-page">
+		<h2 class="title"> My Cart</h2>
+		</div>
+	</div>
+	</section>
+	<section>
+		<div class=" grid-row grid-col-12of12" id="mycart-page-content">
+
+		<div class="grid-col-1of3 container">
+		<img src="img/item1.jpg">
+		</div>
+
+		<div class="grid-col-2of3 mycart-page-text">
+			<h1>OCTAEVO Artesania Creative Note</h1>
+			<h3>Orange/ Ruled</h3>
+		</div>
+			
+		
+		</div>
+
+
+		<div class=" grid-row grid-col-12of12">
+		<div class="grid-col-12of12 total-amount">
+		<h1>Total: $25.00</h1>
+			<form method="get" action="checkout.html">
+				<button type="submit" onclick="checkout.html">CHECK OUT</button>
+			</form>
+		</div>
+		</div>
+
+
+		
+	</section>
+
+
+	<!--<end of content>-->
+	<!-- <start of footer section> -->
+	<section>
+		<div class="grid-row">
+
+		<!-- <link> -->
+		<!--
+			<div class="grid-col-12of12 footer-bg">
+			<ul class="footer-ul">
+				<li class="footer-content">
+					<a href="">FQA</a>
+				</li>
+				<li class="footer-content">|</li>
+
+				<li class="footer-content">
+					<a href="">SHIPPING</a>
+				</li>
+				<li class="footer-content">|</li>
+
+				<li class="footer-content">
+					<a href="">CONTACT</a>
+				</li>
+			</ul>
+				
+			</div>
+			-->
+
+			<!-- <social icons> -->
+
+			<div class="grid-col-12of12 footer-bg">
+				<div class="footer-icons">
+					<div class="center-container">
+					<div class="icon">
+					<img src="img/facebook.png">
+					</div>
+
+					<div class="icon">
+					<img src="img/instagram.png">
+					</div>
+
+					<div class="icon">
+					<img src="img/twitter.png">
+					</div>
+
+					<div class="icon">
+					<img src="img/pinterest.png">
+					</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+	<!-- <end of footer section> -->
