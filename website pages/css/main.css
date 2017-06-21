@@ -382,6 +382,7 @@ h5{
 	display: inline-block;
 	width: 500px;
 	margin-top: 0;
+	vertical-align: middle;
 
 }
 
@@ -450,6 +451,8 @@ h5{
 	display: inline-block;
 	width: 500px;
 	margin-top: 0;
+	vertical-align: middle;
+
 
 }
 
@@ -469,7 +472,72 @@ h5{
 	opacity: 5;
 
 }
+
+
+
 /*end of my list popup*/
+/*thank you popup*/
+
+#thank-popup{
+	height: 30rem;
+	width:80%;
+	margin-left: 5rem auto;
+	position: absolute;
+	z-index: 20;
+	text-align: center;
+	border:1px solid grey;
+	background-color: white;
+	display: none;
+	top: 40%;
+	left: 10%;
+}
+
+#thank-popup .title{
+	margin-top: 2rem;
+	font-size: 20pt;
+	color: #729bcc;
+}
+
+
+#thank-popup h1{
+	color: grey;
+}
+#thank-popup h2{
+	color: #94b0d1;
+	text-transform: uppercase;
+	padding-top: 1em;
+	font-size: 14px;
+}
+#thank-popup p{
+	color: #B8C1C1;
+
+}
+
+
+#thank-popup div {
+	margin-left: 0;
+	height: auto;
+	display: block;
+	margin-top: 0;
+	vertical-align: middle;
+
+}
+
+.backtohome{
+	background-color: #B8C1C1;
+ 	color: white;
+ 	padding: 1rem 2rem;
+ 	display: block;
+	font-size: 12pt;
+
+}
+#thank-popup:target, #thank-popup:target+#cover{
+	display: block;
+	opacity: 5;
+
+}
+
+/*end of thank you popup*/
 
 #cover{
 	position: fixed;
@@ -555,9 +623,105 @@ h5{
 	margin: 1rem 0;
 }
 
+#mycart-page .title{
+	text-transform: uppercase;
+}
 
 
 /*end of my cart page section*/
+
+/*start of checkout page*/
+.payment-info{
+	text-align: center;	
+}
+.select-form{
+	font-size: 10pt;
+	text-align: left;
+	border:1px solid grey;
+	transition: all 1s ease;
+	padding: 1em 4em 1em 1em;
+	margin: 0.5em;
+	height: 4em;
+	width: 16.5em;
+	border-radius: 0;
+	background-color: white;
+	color: grey;
+
+}
+
+.input-form input{
+	font-size: 10pt;
+	text-align: left;
+	border:1px solid grey;
+	transition: all 1s ease;
+	padding: 1em 4em 1em 1em;
+	margin: 0.5em;
+}
+
+
+.order-summary{
+	text-align: center;
+}
+.order-summary img{
+	width: 30%;
+	height: auto;
+	margin: 0;
+	display: inline-block;
+	
+
+}
+
+
+.order-summary a{
+ 	background-color: #B8C1C1;
+ 	color: white;
+ 	padding: 1rem 3rem;
+ 	margin-top: 4rem;
+ 	font-size: 12pt;
+ }
+
+
+.order-list{
+	border-bottom: 1px solid grey;
+	width: 100%;
+	height: auto;
+}
+
+.order-list h1{
+	color: #729bcc;
+	display: inline-block;
+	vertical-align: top;
+}
+.order-list h2{
+	color: grey;
+	display:block;
+	text-align: right;
+}
+
+.order-list h3{
+	color:  #94b0d1;
+	text-align: left;
+	display: inline-block;
+
+	
+	
+}
+
+ .confirm-order{
+ 	height: auto;
+ 	width: 100%;
+ 	margin-top: 2rem;
+ }
+
+ .payment-info a{
+ 	background-color: #f7d98a;
+ 	color: white;
+ 	padding: 1rem 3rem;
+ 	margin-top: 4rem;
+ 	font-size: 12pt;
+ }
+
+/*end of checkout page*/
 
 /*footer section*/
 .footer-bg{
