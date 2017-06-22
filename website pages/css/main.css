@@ -122,8 +122,12 @@ button{
 .icon-on-nav{
 	padding: 2rem;
 	float: right;
+	display: inline;
 
+}
 
+#click-icon{
+	padding: 0;
 }
 
 .button-nav{
@@ -136,6 +140,9 @@ button{
 
 
 
+.nav a{
+	padding-left: 1em;
+}
 
 
 .my-cart{
@@ -535,20 +542,25 @@ h5{
 
 
 #thank-popup div {
-	margin-left: 0;
+
 	height: auto;
-	display: block;
-	margin-top: 0;
+	display:block;
+	width: 500px;
+	margin-top: 5rem;
+	margin-left: 15rem;
 	vertical-align: middle;
 
 }
 
 .backtohome{
-	background-color: #B8C1C1;
+	background-color: #f7d98a;
  	color: white;
- 	padding: 1rem 2rem;
+ 	padding: 1rem 1rem;
  	display: block;
 	font-size: 12pt;
+	margin-top: 2rem;
+	margin-left: 8rem;
+	width: 50%;
 
 }
 #thank-popup:target, #thank-popup:target+#cover{
@@ -558,7 +570,82 @@ h5{
 }
 
 /*end of thank you popup*/
+/* confirm popup*/
+#confirm-popup{
+	height: 35rem;
+	width:80%;
+	margin-left: 5rem auto;
+	position: absolute;
+	z-index: 20;
+	text-align: center;
+	border:1px solid grey;
+	background-color: white;
+	display: none;
+	top: 40%;
+	left: 10%;
+}
 
+#confirm-popup .title{
+	margin-top: 2rem;
+	font-size: 20pt;
+	color: #729bcc;
+}
+
+
+#confirm-popup h1{
+	color: grey;
+}
+#confirm-popup ul{
+	color: #94b0d1;
+	text-transform: uppercase;
+	padding-top: 1em;
+	font-size: 14px;
+	padding-left: 0;
+
+}
+
+#confirm-popup div{
+	margin-left: 0;
+	height: auto;
+	display: inline-block;
+	width: 500px;
+	margin-top: 0;
+	vertical-align: middle;
+	
+}
+
+
+
+.place-order{
+	background-color: #f7d98a;
+ 	color: white;
+ 	padding: 1rem 1rem;
+ 	display: block;
+	font-size: 12pt;
+	margin-top: 2rem;
+	margin-left: 8rem;
+	width: 50%;
+
+}
+
+.changeinfo{
+	background-color: #E4EFEF;
+ 	color: #B8C1C1;
+ 	padding: 1rem 1rem;
+ 	display: block;
+	font-size: 12pt;
+	margin-top: 1rem;
+	margin-left: 8rem;
+	width: 50%;
+}
+
+#confirm-popup:target, #confirm-popup:target+#cover{
+	display: block;
+	opacity: 5;
+
+}
+
+/* end of confirm popup*/
 #cover{
 	position: fixed;
 	top: 0;
@@ -758,6 +845,19 @@ h5{
 .footer-content{
 	display: inline-block;
 	color: #f7d98a;
+}
+
+.footer-text{
+	text-align: center;
+	text-transform: uppercase;
+	margin:auto;
+	padding-left: 1.5rem;
+	padding-top: 15px;
+	width: 30px;
+	height: auto;
+	position: relative;
+	z-index: 999;
+	float: left;
 }
 
 .footer-icons{

@@ -19,11 +19,11 @@
 
 	<div class="button-nav grid-col-7of12">
 		<div class=" button-nav grid-button">
-		<a href="product.html">Our Product</a>
+		<a href="product.html">Product</a>
 		</div>
 
 		<div class=" button-nav grid-button">
-		<a href="company.html">Our Company</a>
+		<a href="company.html">Company</a>
 		</div>
 
 		<div class=" button-nav grid-button">
@@ -34,15 +34,21 @@
 
 	<div class="button-nav grid-col-1of6 icon-on-nav">
 		<div class="my-cart">
-		<span onclick="mycart.html"><img src="img/cart.png" alt="cart-icon" title="My Cart" class="icon"></span>
+		<a id="click-icon" href="mycart.html">
+		<img src="img/cart.png" alt="cart-icon" title="My Cart" class="icon">
+		</a>
 		</div>
 
 		<div class="my-fav">
-		<span onclick="openCart()"><img src="img/fav.png" alt="fav-icon" title="My Fav" class="icon"></span>
+		<a id="click-icon" href="mycart.html">
+		<img src="img/fav.png" alt="fav-icon" title="My Fav" class="icon">
+		</a>
 		</div>
 
 		 <div class="search"> 
-         <span onclick="openSearch()"><img src="img/search.png" alt="search-icon" class="icon" title="search"></span>
+         <a id="click-icon" href="mycart.html">
+         <img src="img/search.png" alt="search-icon" class="icon" title="search">
+         </a>
          </div>
 		
 	</div>
@@ -150,7 +156,7 @@
 			</form>
 
 			<div class="confirm-order">
-				<a href="#thank-popup">confirm payment</a>
+				<a href="#confirm-popup">confirm payment</a>
 			</div>
 		
 			
@@ -158,6 +164,35 @@
 			
 		</div>
 	</section>
+
+	<div id="confirm-popup">
+			<h1 class="title"> Ready to go!</h1>
+			
+
+			<div>
+			<h2>Shipping information</h2>
+			<ul>Cindy Chien</ul>
+			<ul>778-123-4567</ul>
+			<ul>abc@sfu.ca</ul>
+			<ul>1234 ABC ave. Vancouver. BC. CA  V1J 4T5</ul>
+			</div>
+
+			<div>
+			<h2>Payment information</h2>
+			<ul>Card holder: Cindy Chien</ul>
+			<ul>Card number:xxxxxxxxxxx123</ul>
+			<ul>Expire date: 06/18</ul>
+			<ul>Security code:123</ul>
+			</div>
+
+			<div>
+			<a href="#thank-popup" class="place-order">Place my order</a>
+			<a href="#" class="changeinfo">Change my information</a>
+			</div>	
+
+			<a href="#" class="close">x</a>
+		</div>
+		<div id="cover"></div>
 
 	<!--<end of content>-->
 	<!-- <start of thankyou popup> -->
