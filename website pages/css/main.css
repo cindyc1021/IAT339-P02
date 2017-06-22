@@ -830,10 +830,24 @@ h5{
 
 /*end of checkout page*/
 
+/*start of company page*/
+
+.company div{
+	margin-top: 5rem;
+	display: inline;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.company-text{
+	padding-top: 8rem;
+}
+/*end of company page*/
 /*footer section*/
 .footer-bg{
-	padding: 1rem;
+	padding:1rem;
 	background-color: #94b0d1;
+
 
 }
 
@@ -983,4 +997,23 @@ h3{
 
 }
 
+/*start of citation page*/
+.cite{
+	margin: 8rem 0 0 0;
+}
+
+.cite h2{
+	color: black;
+	text-transform: uppercase;
+}
+
+.cite h1{
+	color: #94b0d1;
+	font-size: 12pt;
+}
+
+.cite li{
+	color: grey;
+	font-size: 10pt
+}
 >>>>>>> master
