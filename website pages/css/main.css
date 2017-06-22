@@ -13,7 +13,8 @@ p{
 
 a{
 	text-decoration: none;
-	color: white;
+	color:white;
+	font-size: 14px;
 }
 
 section{
@@ -60,9 +61,35 @@ button{
 
 .nav a{
 	padding-left: 1em;
+
 }
 
+.nav{
+	background-color:#94b0d1;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 5;
+
+	-webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+
+}
+.nav.scrolled {
+	opacity: 0.5;
+  
+
+  
+}
+
+
+
 .button-nav a:hover{
+	color:#eaeded;
+	-webkit-transition: all 0.5s ease-out;
 
 }
 
@@ -74,7 +101,7 @@ button{
 .brand a{
 	font-size: 24px;
 	padding-right: 2em;
-	color: white;
+	
 }
 
 .icons{
@@ -102,19 +129,12 @@ button{
 .button-nav{
 	display: inline-block;
 	padding: 0em 1em 0em 1em;
-	color: white;
 	list-style-type: none;
 	text-decoration: none;
 }
 
 
-.nav{
-	width: 100%;
-	top: 0;
-	position: fixed;
-	background-color: #B8C1C1;
-	z-index: 5;
-}
+
 
 
 
@@ -726,7 +746,7 @@ h5{
 /*footer section*/
 .footer-bg{
 	padding: 1rem;
-	background-color: #B8C1C1;
+	background-color: #94b0d1;
 
 }
 
@@ -781,7 +801,7 @@ h3{
 
 .filter h3{
 	padding: 0.5em 7em;
-	background-color: #B8C1C1;
+	background-color: #c3d1e2;
 
 }
 
@@ -797,10 +817,18 @@ h3{
 }
 
 .product{
-	padding: 10em 4em;
+	padding: 10em 5em;
 
 }
 
+
+.product p{
+	position: relative;
+	text-align: center;
+	top:-5em;
+
+	 
+}
 
 
 
@@ -819,6 +847,40 @@ h3{
  
      opacity: 0.5;
     filter: alpha(opacity=50); 
+}
+
+/* contact css*/
+
+.contact{
+	padding: 10em 0em;
+
+
+}
+
+
+
+.submit{
+	padding: 2em;
+
+}
+.submit button{
+	position: relative;
+	border:none;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 1em 4em;
+	letter-spacing: 2px;
+	background-color: #94b0d1;
+	color:white;
+	font-size: 14px;
+}
+
+.info{
+	position: relative;
+	padding: 10em 10em;
+	text-align: center;
+	
+
 }
 
 >>>>>>> master
