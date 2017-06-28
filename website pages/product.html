@@ -47,6 +47,42 @@
 	
 	</div>
 	<!-- <end of fixed horizontal navigation> -->
+		<!-- <start of hamburger icon in smaller screen> -->
+	<section>
+		<div id="smallnav" class="smallnav" style="width: 0px;">
+			<a href="javascript:void(0)" class="closebtn" onclick="closenav()">x</a>
+
+			<div class="sidebar-nav">
+
+				<a href="home.html" class="side-nav-brand">CentiMeter</a>
+				<a href="product.html">product</a>
+				<a href="company.html">company</a>
+				<a href="contact.html">contact us</a>
+				<a href="mycart.html">my cart</a>
+				<a href="mycart.html">my list</a>
+				
+			</div>
+		</div>
+	</section>
+	<script>
+		 function openNav() { 
+                      document.getElementById("smallnav").style.width = "100%"; 
+                      // document.getElementById("main").style.marginLeft = "250px"; 
+                      document.body.style.backgroundColor = "rgba(0,0,0,0.5)"; 
+                  } 
+
+		 function closenav() { 
+                      document.getElementById("smallnav").style.width = "0"; 
+                      // document.getElementById("main").style.marginLeft= "0"; 
+                      document.body.style.backgroundColor = "white"; 
+                  	}
+	</script>
+
+	 <div class="hamburger">
+                  <span onclick="openNav()"><img src="img/burger.png" alt="hamburger-icon" title="hamburger"></span>
+                  <a href="home.html"><p class="small-brand">CentiMeter</p></a>
+            </div>
+	<!-- <end of hamburger icon in smaller screen> -->
 	<!-- <product and filter> -->
 
 

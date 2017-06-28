@@ -41,7 +41,7 @@ section .index-pic{
 		font-size: 10px;
 	}
    
-    .button-nav .logo a {
+    .button-nav .brand a {
      font-size:15px;
     }
 
@@ -50,6 +50,8 @@ section .index-pic{
 		height: auto;
 		margin-top: 5px;
 	}
+
+
 
 	
 }
@@ -61,7 +63,7 @@ section .index-pic{
 		display: none;
 	}
 
-	.hidden-product-info{
+	.insta-info{
 		display: none;
 	}
 
@@ -73,9 +75,6 @@ section .index-pic{
     	display:none;
     }
 
-     .image-holder video{
-      display:block;
-    }
    
 	.hamburger{
 		display: none;
@@ -215,6 +214,7 @@ section .index-pic{
 		width:48%;
 	}
 
+
 }
 
 @media only screen and (max-width: 48em) {
@@ -239,16 +239,7 @@ section .index-pic{
 		display: none;
 	}
 
-	
-/*	.account-icon{
-		display: none;
-	
-	}
 
-
-	.shopping-bag{
-		display: none;
-	}*/
 
 	.hidden-product-info{
 		visibility: visible;

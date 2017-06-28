@@ -58,7 +58,42 @@
 	
 	</div>
 	<!-- <end of fixed horizontal navigation> -->
+	<!-- <start of hamburger icon in smaller screen> -->
+	<section>
+		<div id="smallnav" class="smallnav" style="width: 0px;">
+			<a href="javascript:void(0)" class="closebtn" onclick="closenav()">x</a>
 
+			<div class="sidebar-nav">
+
+				<a href="home.html" class="side-nav-brand">CentiMeter</a>
+				<a href="product.html">product</a>
+				<a href="company.html">company</a>
+				<a href="contact.html">contact us</a>
+				<a href="mycart.html">my cart</a>
+				<a href="mycart.html">my list</a>
+				
+			</div>
+		</div>
+	</section>
+	<script>
+		 function openNav() { 
+                      document.getElementById("smallnav").style.width = "100%"; 
+                      // document.getElementById("main").style.marginLeft = "250px"; 
+                      document.body.style.backgroundColor = "rgba(0,0,0,0.5)"; 
+                  } 
+
+		 function closenav() { 
+                      document.getElementById("smallnav").style.width = "0"; 
+                      // document.getElementById("main").style.marginLeft= "0"; 
+                      document.body.style.backgroundColor = "white"; 
+                  	}
+	</script>
+
+	 <div class="hamburger">
+                  <span onclick="openNav()"><img src="img/burger.png" alt="hamburger-icon" title="hamburger"></span>
+                  <a href="home.html"><p class="small-brand">CentiMeter</p></a>
+            </div>
+	<!-- <end of hamburger icon in smaller screen> -->
 	<!-- <start of swiping image banner> -->
 
 	<section>
@@ -70,7 +105,7 @@
 			<div class="content-text">
 				<!-- <h1> Write down your own story</h1> -->
 				<form method="get" action="product.html">
-					<button type=" submit" class=""> View more detail</button>
+					<button type="submit" class=""> View more detail</button>
 				</form>
 			</div>
 		
@@ -128,19 +163,19 @@
 		<div class="grid-row grid-col-12of12">
 		<div id="new-arrival-pic">
 		<h5> pen </h5>
-			<div class="grid-col-1of4 container">
+			<div class="grid-col-1of6 container">
 			<img src="img/home6.jpg" class="image">
 			</div>
 
-			<div class="grid-col-1of4 container">
+			<div class="grid-col-1of6 container">
 			<img src="img/home7.jpg" class="image">
 			</div>
 
-			<div class="grid-col-1of4 container">
+			<div class="grid-col-1of6 container">
 			<img src="img/home8.jpg" class="image">
 			</div>
 
-			<div class="grid-col-1of4 container">
+			<div class="grid-col-1of6 container">
 			<img src="img/home9.jpg" class="image">
 			</div>
 			
@@ -163,6 +198,7 @@
 		<div id="instagram-pic">
 			<div class="grid-col-1of3 container"> 
 			<img src="img/pen1.png" class="image" alt="instapic">
+			<!--	<div class="insta-info"> <h3>shared by:</h3><h3>@ann103834</h3> </div> -->
 			</div>
 
 			<div class="grid-col-1of3 container"> 
@@ -200,27 +236,8 @@
 	<section>
 		<div class="grid-row">
 
-		<!-- <link> -->
-		<!--
-			<div class="grid-col-12of12 footer-bg">
-			<ul class="footer-ul">
-				<li class="footer-content">
-					<a href="">FQA</a>
-				</li>
-				<li class="footer-content">|</li>
-
-				<li class="footer-content">
-					<a href="">SHIPPING</a>
-				</li>
-				<li class="footer-content">|</li>
-
-				<li class="footer-content">
-					<a href="">CONTACT</a>
-				</li>
-			</ul>
-				
-			</div>
-			-->
+	
+		
 
 			<!-- <social icons> -->
 
@@ -245,15 +262,33 @@
 					<img src="img/pinterest.png">
 					</div>
 
-					<div class="footer-text">
-					<a href="citation.html">citations</a>	
-					</div>
 						
 					</div>
 
 
 					
 				</div>
+				
+			</div>
+
+				<!-- <link> -->
+		
+			<div class="grid-col-12of12 footer-bg">
+			<ul class="footer-ul">
+				<li class="footer-content">
+					<a href="citation.html">citations</a>
+				</li>
+				<li class="footer-content">|</li>
+
+				<li class="footer-content">
+					<a href="styleguide.html">styleguide</a>
+				</li>
+				<li class="footer-content">|</li>
+
+				<li class="footer-content">
+					<a href="">git repository</a>
+				</li>
+			</ul>
 				
 			</div>
 
